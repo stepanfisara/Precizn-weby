@@ -123,8 +123,18 @@
   },
   "pricing": {
     "title": "Pricing Plans",
+    "deposit": {
+      "title": "Deposit Includes",
+      "consultation": "30-60 minute consultation",
+      "analysis": "Analysis of your needs and solution proposal",
+      "design": "Preliminary design of the main page",
+      "estimate": "Price estimate and platform recommendation",
+      "note": "The deposit will be deducted from the total price if the project is realized"
+    },
     "basic": {
       "title": "Basic",
+      "fullPrice": "5,699 CZK",
+      "deposit": "1,500 CZK",
       "features": {
         "1": "5 subpages",
         "2": "Responsive design",
@@ -135,6 +145,8 @@
     },
     "business": {
       "title": "Business",
+      "fullPrice": "8,999 CZK",
+      "deposit": "3,000 CZK",
       "features": {
         "1": "10 subpages",
         "2": "Advanced SEO",
@@ -146,6 +158,8 @@
     },
     "premium": {
       "title": "Premium",
+      "fullPrice": "14,999 CZK",
+      "deposit": "5,000 CZK",
       "features": {
         "1": "Unlimited subpages",
         "2": "Premium support",
@@ -157,6 +171,8 @@
     },
     "eshop": {
       "title": "E-commerce",
+      "fullPrice": "17,500 CZK",
+      "deposit": "6,500 CZK",
       "features": {
         "1": "Complete e-shop",
         "2": "Payment gateway",
@@ -166,7 +182,11 @@
         "6": "Accounting integration"
       }
     },
-    "selectPlan": "Select Plan"
+    "depositLabel": "Deposit",
+    "fullPriceLabel": "Total Price",
+    "selectPlan": "Select Plan",
+    "addToCart": "Add to Cart",
+    "inCart": "In Cart"
   },
   "faq": {
     "title": "Frequently Asked Questions",
