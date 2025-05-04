@@ -5,16 +5,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
+    "@netlify/functions": "^2.6.0",
+    "@stripe/stripe-js": "^2.4.0",
+    "i18next": "^23.10.1",
+    "i18next-browser-languagedetector": "^7.2.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-intersection-observer": "^9.8.1"
+    "react-helmet-async": "^2.0.4",
+    "react-i18next": "^14.1.0",
+    "react-router-dom": "^6.22.0",
+    "stripe": "^14.18.0",
+    "zod": "^3.22.4",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",

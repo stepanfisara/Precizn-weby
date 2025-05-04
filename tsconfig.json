@@ -5,7 +5,14 @@
     "outDir": "netlify/functions-build",
     "rootDir": "netlify/functions",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "lib": ["ES2020"]
   },
-  "include": ["netlify/functions"]
+  "include": ["netlify/functions"],
+  "exclude": ["node_modules", "dist"]
 }

@@ -203,14 +203,3 @@
 .faq-item:hover {
   transform: translateX(8px);
 }
-
-/* Scroll Progress Bar */
-.scroll-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 3px;
-  background: linear-gradient(to right, #3B82F6, #2563EB);
-  z-index: 100;
-  transition: width 0.1s ease-out;
-}
