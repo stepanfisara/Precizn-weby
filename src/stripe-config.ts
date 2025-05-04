@@ -10,7 +10,7 @@ export const STRIPE_PRODUCTS = {
     name: 'Basic Plán',
     description: 'Záloha pro plán Basic',
     fullPrice: 5699,
-    deposit: 4,
+    deposit: 16,
     mode: 'payment' as const
   },
   BUSINESS: {
