@@ -6,11 +6,11 @@ export type StripePlan = z.infer<typeof StripePlanSchema>;
 export const STRIPE_PRODUCTS = {
   BASIC: {
     id: 'prod_SFHBhzoRMgp5YE',
-    priceId: 'price_1RL5PgLdqEyJy5U9k2uOjrTB',
+    priceId: 'price_1RKmdcLdqEyJy5U9cNXdeZKE',
     name: 'Basic Plán',
     description: 'Záloha pro plán Basic',
     fullPrice: 5699,
-    deposit: 35,
+    deposit: 1500,
     mode: 'payment' as const
   },
   BUSINESS: {
@@ -34,10 +34,10 @@ export const STRIPE_PRODUCTS = {
   ESHOP: {
     id: 'prod_SFHDeuYtmJSjij',
     priceId: 'price_1RKmeaLdqEyJy5U9v8Mc3kYw',
-    name: 'E-shop',
+    name: 'E-Shop',
     description: 'Záloha pro E-shop',
     fullPrice: 17500,
-    deposit: 6000,
+    deposit: 6500,
     mode: 'payment' as const
   }
 } as const;
