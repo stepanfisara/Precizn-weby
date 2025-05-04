@@ -246,7 +246,7 @@ function MainContent() {
       plan: 'BASIC' as StripePlan,
       title: t('pricing.basic.title'),
       fullPrice: 5699,
-      deposit: 1500,
+      deposit: 16,
       icon: <Code2 className="w-12 h-12" />,
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015',
       features: [
@@ -293,7 +293,7 @@ function MainContent() {
       plan: 'ESHOP' as StripePlan,
       title: t('pricing.eshop.title'),
       fullPrice: 17500,
-      deposit: 6500,
+      deposit: 6000,
       icon: <Store className="w-12 h-12" />,
       image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=2070',
       features: [
